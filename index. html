@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raut Farm Fruits & Vegetables</title>
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#f4fff4;
+color:#333;
+}
+header{
+background:linear-gradient(90deg,#1b5e20,#4caf50);
+color:white;
+padding:25px;
+text-align:center;
+}
+.hero{
+padding:60px 20px;
+text-align:center;
+background:#e8f5e9;
+}
+.hero h1{
+font-size:40px;
+margin:10px 0;
+}
+.hero p{
+font-size:20px;
+}
+.button{
+display:inline-block;
+margin-top:20px;
+padding:15px 30px;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-size:18px;
+}
+.products{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+padding:40px;
+}
+.card{
+background:white;
+width:300px;
+padding:20px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.2);
+text-align:center;
+}
+.card img{
+width:100%;
+border-radius:10px;
+}
+footer{
+background:#1b5e20;
+color:white;
+padding:20px;
+text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>🌾 Raut Farm Fruits & Vegetables</h2>
+<p>Fresh From Our Farm To Your Home</p>
+</header>
+
+<section class="hero">
+<h1>Welcome to Raut Farm</h1>
+<p>Premium Quality Grapes & Onion</p>
+
+<a class="button"
+href="https://wa.me/919226453403?text=Hello%20Raut%20Farm,%20I%20want%20to%20order.">
+💬 Order on WhatsApp
+</a>
+</section>
+
+<section class="products">
+
+<div class="card">
+<h2>🍇 Grapes</h2>
+<p><b>Today's Price:</b> ₹____ / kg</p>
+<p><b>Stock:</b> ✅ Available</p>
+</div>
+
+<div class="card">
+<h2>🧅 Onion</h2>
+<p><b>Today's Price:</b> ₹____ / kg</p>
+<p><b>Stock:</b> ✅ Available</p>
+</div>
+
+</section>
+
+<footer>
+📍 Aswalipada, Ahivantwadi, Nashik<br><br>
+📞 9226453403
+</footer>
+
+</body>
+</html>
